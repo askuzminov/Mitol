@@ -1,6 +1,6 @@
-#include "src/Socket.h"
-#include "src/Http.h"
-#include "src/Response.h"
+#include "./src/Socket.h"
+#include "./src/Http.h"
+#include "./src/Response.h"
 #include <stdio.h>
 
 MNS::Server *server = NULL;

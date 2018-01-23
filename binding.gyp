@@ -7,12 +7,12 @@
     {
       "target_name": "mitol",
       "sources": [
-        "mns.cc",
-        "src/Http.cpp",
-        "src/Request.cpp",
-        "src/Response.cpp",
-        "src/Server.cpp",
-        "src/Socket.cpp"
+        "./mns.cc",
+        "./src/Http.cpp",
+        "./src/Request.cpp",
+        "./src/Response.cpp",
+        "./src/Server.cpp",
+        "./src/Socket.cpp"
       ],
       "conditions": [
         ["OS==\"linux\" or OS==\"freebsd\" or OS==\"openbsd\" or OS==\"solaris\" or OS==\"aix\"", {
